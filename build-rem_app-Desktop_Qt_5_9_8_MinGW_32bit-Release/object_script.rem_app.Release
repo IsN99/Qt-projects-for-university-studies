@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\wind2.o
+./release\wind3.o
+./release\dialog.o
+./release\rem.o
+./release\moc_mainwindow.o
+./release\moc_wind2.o
+./release\moc_wind3.o
+./release\moc_dialog.o
+);
