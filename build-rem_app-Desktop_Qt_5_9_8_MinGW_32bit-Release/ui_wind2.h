@@ -15,6 +15,7 @@
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
@@ -24,6 +25,7 @@ class Ui_wind2
 public:
     QPushButton *pushButton;
     QPushButton *pushButton_2;
+    QLabel *label;
 
     void setupUi(QDialog *wind2)
     {
@@ -36,6 +38,12 @@ public:
         pushButton_2 = new QPushButton(wind2);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(300, 370, 300, 50));
+        label = new QLabel(wind2);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(100, 10, 391, 351));
+        label->setPixmap(QPixmap(QString::fromUtf8("../rem_img/img1.png")));
+        label->setScaledContents(true);
+        label->setAlignment(Qt::AlignCenter);
 
         retranslateUi(wind2);
 

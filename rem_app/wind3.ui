@@ -39,6 +39,31 @@
     <string>Далее</string>
    </property>
   </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>61</y>
+     <width>421</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;_x0000_t75&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;нo - среднее время наработки на отказ одного компьютера;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;_x0000_i1025&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;o - среднее время ремонта одного компьютера;&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;_x0000_i1025&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;N&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt; - количество компьютеров (поскольку рассматривается служба ремонта малого предприятия, берем наибольшее значение 100);&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;_x0000_i1025&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;C&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt; - количество специалистов, занятых ремонтом компьютеров (1/2/3);&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;S1 - заработная плата специалиста за один час &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:8pt;&quot;&gt;S - финансовые потери организации от неисправного компьютера за один час составляют &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
