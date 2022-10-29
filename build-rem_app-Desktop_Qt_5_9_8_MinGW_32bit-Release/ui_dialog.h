@@ -220,7 +220,7 @@ public:
         label_6->setText(QApplication::translate("Dialog", "S1", Q_NULLPTR));
         S1->setText(QApplication::translate("Dialog", "300", Q_NULLPTR));
         label_7->setText(QApplication::translate("Dialog", "S", Q_NULLPTR));
-        S->setText(QApplication::translate("Dialog", "2000", Q_NULLPTR));
+        S->setText(QApplication::translate("Dialog", "1000", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("Dialog", "\320\240\320\260\321\201\321\201\321\207\320\270\321\202\320\260\321\202\321\214", Q_NULLPTR));
     } // retranslateUi
 
